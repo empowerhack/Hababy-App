@@ -1,7 +1,15 @@
 require 'sinatra'
 
 get '/' do
-    "hello world"
+  erb :index
+end
+
+get '/english' do
+  erb :english
+end
+
+get '/arabic' do
+  erb :arabic
 end
 
 
