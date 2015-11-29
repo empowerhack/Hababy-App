@@ -1,0 +1,36 @@
+<div class="row">
+  <h1>Advice Documents</h1>
+</div>
+
+<div class="new">
+  <%= link_to 'create new advice document', new_admin_advice_path %>
+</div>
+
+<div class="row">
+  <div class="data-list col-md-9">
+    <div class="row row-data head">
+      <div class="col-md-3">
+        <h3>Title</h3>
+      </div>
+      <div class="col-md-3">
+        <h3>details</h3>
+      </div>
+    </div>
+
+    <% @advices.each do |advice| %>
+      <div class="row row-data">
+        <div class="col-md-3">
+          <p><%= advice.title %></p>
+        </div>
+        <div class="col-md-6">
+          <p><%= link_to 'View full details', admin_advice_path(advice) %>
+          (such as what symptoms, topics and countries this advice is attached to)</p>
+        </div>
+        <div class="col-md-3">
+          <%= button_to "delete", {action: 'destroy',
+                                   id: advice.id }, method: :delete %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div

@@ -1,0 +1,17 @@
+<h1 class='page-title'>New Symptom</h1>
+
+<%= form_for :symptom, url: {action: "create"} do |f| %>
+  <p>
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </p>
+
+  <p>
+    <%= f.label :description %><br>
+    <%= f.text_area :description %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

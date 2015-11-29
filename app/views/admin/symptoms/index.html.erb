@@ -1,0 +1,38 @@
+<div class="row">
+  <h1>Symptoms</h1>
+</div>
+
+<div class="new">
+  <%= link_to 'create new symptom', new_admin_symptom_path %>
+</div>
+
+<div class="row">
+  <div class="data-list col-md-9">
+    <div class="row row-data head">
+      <div class="col-md-3">
+        <h3>Title</h3>
+      </div>
+      <div class="col-md-3">
+        <h3>Description</h3>
+      </div>
+    </div>
+
+    <% @symptoms.each do |symptom| %>
+      <div class="row row-data">
+        <div class="col-md-3">
+          <p><%= symptom.title %></p>
+        </div>
+        <div class="col-md-6">
+          <p><%= symptom.description %><p>
+        </div>
+        <div class="col-md-3">
+          <p><%= link_to 'View Available Advice', admin_symptom_path(symptom) %><p>
+        </div>
+        <div class="col-md-3">
+          <%= button_to "delete", {action: 'destroy',
+                                   id: symptom.id }, method: :delete %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div

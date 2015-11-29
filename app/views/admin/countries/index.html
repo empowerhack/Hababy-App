@@ -1,0 +1,35 @@
+<div class="row">
+  <h1>Countries</h1>
+</div>
+
+<div class="new">
+  <%= link_to 'create new country', new_admin_country_path %>
+</div>
+
+<div class="row">
+  <div class="data-list col-md-9">
+    <div class="row row-data head">
+      <div class="col-md-3">
+        <h3>Name</h3>
+      </div>
+      <div class="col-md-3">
+        <h3>iso</h3>
+      </div>
+    </div>
+
+    <% @countries.each do |country| %>
+      <div class="row row-data">
+        <div class="col-md-3">
+          <p><%= country.name %></p>
+        </div>
+        <div class="col-md-6">
+          <p><%= country.iso %><p>
+        </div>
+        <div class="col-md-3">
+          <%= button_to "delete", {action: 'destroy',
+                                   id: country.id }, method: :delete %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div

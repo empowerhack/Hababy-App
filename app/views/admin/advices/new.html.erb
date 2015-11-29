@@ -1,0 +1,36 @@
+<h1 class='page-title'>New Country</h1>
+
+<%= form_for :advice, url: {action: "create"} do |f| %>
+  
+  first select your country
+  <p>
+    <%= f.label :country %><br>
+    <%= f.collection_select(:country_id, Country.all, :id, :name) %>
+  </p>
+
+  <p>
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </p>
+
+  <p>
+    <%= f.label :description %><br>
+    <%= f.text_area :description %>
+  </p>
+
+
+  Please choose a
+  <p>
+    <%= f.label :symptom %><br>
+    <%= f.collection_select(:symptom_id, Symptom.all, :id, :title) %>
+  </p>
+
+  or a
+  <p>
+    <%= f.label :topic %><br>
+    <%= f.collection_select(:topic_id, Topic.all, :id, :name) %>
+  </p>  
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

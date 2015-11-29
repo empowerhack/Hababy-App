@@ -1,0 +1,22 @@
+<h1 class='page-title'>New Country</h1>
+
+<%= form_for :country, url: {action: "create"} do |f| %>
+  <p>
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </p>
+
+  <p>
+    <%= f.label :iso %><br>
+    <%= f.text_area :iso %>
+  </p>
+
+  <p>
+    <%= f.label :iso3 %><br>
+    <%= f.text_area :iso3 %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

@@ -1,0 +1,32 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  font-size: 24px;
+}
+
+
+section.welcome {
+  font-size: 24px;
+}
+
+.welcome button.btn-default {
+  margin: 170px 0 0 0;
+  width: 100%;
+  height: 500px;
+  font-size: 100px;
+  background-color: #DDDDDD !important;
+  color: #31708F;
+  border-radius: 5px !important;
+}
+
+.menu button.btn-default {
+  margin: 70px 0 0 0;
+  width: 100%;
+  height: 250px;
+  font-size: 100px;
+  background-color: #DDDDDD !important;
+  color: #31708F;
+  border-radius: 5px !important;
+}
