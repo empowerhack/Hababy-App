@@ -2,27 +2,21 @@
 
   <div class="row">
     <div class="col-md-6 col-sm-12">
-      <form method="get" action='/general-advice'>
-        <button type="submit" class="btn btn-default">نصائح عامة</button>
-      </form>
+      <%= link_to "نصائح عامة", topics_path, class: "button" %>
     </div>
 
     <div class="col-md-6 col-sm-12">
-      <form method="get" action='/english'>
-        <button type="submit" class="btn btn-default">الأعراض</button>
-      </form>
+      <%= link_to "الأعراض", symptoms_path, class: "button" %>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 col-sm-12">
+      <%= link_to "بلد", topics_path, class: "button" %>
     </div>
 
     <div class="col-md-6 col-sm-12">
-      <form method="get" action='/arabic'>
-        <button type="submit" class="btn btn-default">بلد</button>
-      </form>
-    </div>
-
-    <div class="col-md-6 col-sm-12">
-      <form method="get" action='/arabic'>
-        <button type="submit" class="btn btn-default">دواء</button>
-      </form>
+      <%= link_to "دواء", symptoms_path, class: "button" %>
     </div>
   </div>
 
