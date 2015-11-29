@@ -10,7 +10,8 @@ Rails.application.routes.draw do
   get '/english' => 'welcome#english'
   get '/arabic' => 'welcome#arabic'
 
-  resources :symptoms, only: [:index]
+  resources :symptoms, only: [:index, :show]
+  resources :topics, only: [:index]
 
   namespace :admin do
     resources :symptoms

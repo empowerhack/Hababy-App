@@ -1,1 +1,15 @@
-<%= @symptoms %>
+<% @symptoms.each do |symptom| %>
+
+  <section class="symptoms">
+
+    <div class="row">
+      <div class="col-md-12">
+         <a href="<%= symptom_path(symptom.id) %>" class="button">
+           <%=symptom.title%>
+         </a>
+      </div>
+    </div>
+
+  </section>
+
+<% end %>

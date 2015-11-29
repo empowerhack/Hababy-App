@@ -19,14 +19,35 @@ section.welcome {
   background-color: #DDDDDD !important;
   color: #31708F;
   border-radius: 5px !important;
+  @media only screen and (min-width: 48em) {
+    margin: 60px 0 0 0;
+  }
 }
 
-.menu button.btn-default {
-  margin: 70px 0 0 0;
-  width: 100%;
-  height: 250px;
-  font-size: 100px;
-  background-color: #DDDDDD !important;
-  color: #31708F;
-  border-radius: 5px !important;
+.menu {
+  .button {
+    display: block;
+    margin: 70px 0 0 0;
+    padding: 60px;
+    text-align: center;
+    background-color: #DDDDDD !important;
+    color: #31708F;
+    border-radius: 5px !important;
+  }
 }
+
+.symptoms {
+  .button {
+    display: block;
+    margin: 70px 0 0 0;
+    padding: 60px;
+    text-align: center;
+    background-color: #DDDDDD !important;
+    color: #31708F;
+    border-radius: 5px !important;
+  }
+}
+
+
+
+
