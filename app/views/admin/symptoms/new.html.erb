@@ -11,6 +11,12 @@
     <%= f.text_area :description %>
   </p>
 
+  Please choose a
+  <p>
+    <%= f.label :term_at_pregnancy %><br>
+    <%= f.collection_select(:term_id, Term.all, :id, :month, include_blank: 'Please select part of pregnancy this symptom is related to') %>
+  </p>
+
   <p>
     <%= f.submit %>
   </p>

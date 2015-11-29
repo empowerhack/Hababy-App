@@ -1,0 +1,16 @@
+<% @terms.each do |term| %>
+
+  <section class="terms">
+
+    <div class="row">
+      <div class="col-md-12">
+         <a href="<%= symptom_path(term.symptomid) %>" class="button">
+           this will be the image of term <%=term.month%>
+           and a link to that symptom...
+         </a>
+      </div>
+    </div>
+
+  </section>
+
+<% end %>

@@ -1,0 +1,43 @@
+<div class="row">
+  <h1>Terms (pregnancy terms)</h1>
+</div>
+
+<div class="new">
+  <%= link_to 'create new term', new_admin_term_path %>
+</div>
+
+<div class="row">
+  <div class="row row-data head">
+      <div class="col-md-1">
+        <h3>Month</h3>
+      </div>
+      <div class="col-md-2">
+        <h3>Ante natal?</h3>
+      </div>
+      <div class="col-md-2">
+        <h3>Post natal?</h3>
+      </div>
+      <div class="col-md-6">
+        <h3>View Symptoms</h3>
+      </div>
+    </div>
+
+  <% @terms.each do |term| %>
+      <div class="col-md-1">
+        <p><%= term.month %></p>
+      </div>
+      <div class="col-md-2">
+        <p><%= term.ante_natal %><p>
+      </div>
+      <div class="col-md-2">
+        <p><%= term.post_natal %><p>
+      </div>
+      <div class="col-md-6">
+        <p><%= link_to 'View symptoms currently listed', admin_term_path(term) %><p>
+      </div>
+      <div class="col-md-1">
+        <%= button_to "delete", {action: 'destroy',
+                                 id: term.id }, method: :delete %>
+      </div>
+  <% end %>
+</div

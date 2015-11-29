@@ -9,15 +9,19 @@ Rails.application.routes.draw do
   #   get 'products/:id' => 'catalog#view'
   get '/english' => 'welcome#english'
   get '/arabic' => 'welcome#arabic'
+  get '/pregnancy' => 'welcome#pregnancy'
 
   resources :symptoms, only: [:index, :show]
   resources :topics, only: [:index, :show]
+  resources :countries, only: [:index, :show]
+  resources :terms, only: [:index, :show]
 
   namespace :admin do
     resources :symptoms
     resources :advices
     resources :countries
     resources :topics
+    resources :terms
   end
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
