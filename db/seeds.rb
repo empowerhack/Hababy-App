@@ -27,7 +27,7 @@ symptoms = Symptom.create([{ title: "Swollen Ankles", description: "Swollen ankl
                            { title: "Bleeding Gums", description: "Gums visibly bleeding, or blood appearing while brushing your teeth", term_id: 1, arabic_description: "", arabic_title: ""},
                            ])
 
-topics = Topic.create([{ name: "Home Births", text: "Advice for if you are planning to give birth at home"}])
+topics = Topic.create([{ name: "Home Births", description: "Advice for if you are planning to give birth at home"}])
 
 advices = Advice.create([{ title: "Swollen Ankles", description: "Ankles, feet and fingers often swell a little in pregnancy as your body is holding more water than usual. \nTowards the end of the day, the extra water tends to gather in the lowest parts of the body, especially if the weather is hot or if you have been standing a lot. The gradual swelling isn't harmful to you or your baby, but it can be uncomfortable.", country_id: 1, symptom_id: 1, topic_id: nil, arabic_title: "", arabic_description: "" },
                          { title: "Morning Sickness", description: "You may feel sick and nauseous, and/or vomit. This is commonly known as morning sickness, but it can happen at any time of the day or night. If you're being sick all the time and can't keep anything down, contact your GP. The pregnancy condition hyperemesis gravidarum (HG) is a serious condition that causes severe vomiting and needs treatment. \nPregnancy consultations with GPs is free in the UK", country_id: 1, symptom_id: 1, topic_id: nil, arabic_title: "", arabic_description: "" },
