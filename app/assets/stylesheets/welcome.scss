@@ -39,14 +39,25 @@ section.welcome {
 .symptoms {
   .button {
     display: block;
-    margin: 70px 0 0 0;
-    padding: 60px;
+    margin: 10px 0 0 0;
+    padding: 6px;
     text-align: center;
     background-color: #DDDDDD !important;
     color: #31708F;
     border-radius: 5px !important;
   }
+  .description {
+    font-style: italic;
+    font-size: large;
+  }
+
 }
+
+.page-title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
 
 section.terms {
   ul {
@@ -58,6 +69,10 @@ section.terms {
       }
     }
   }
+}
+
+.row {
+  margin-bottom: 10px;
 }
 
 
