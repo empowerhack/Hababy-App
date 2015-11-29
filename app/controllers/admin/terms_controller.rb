@@ -14,6 +14,16 @@ module Admin
     end
 
     def edit
+      @term = Term.find(params[:id])
+    end
+
+    def update
+      @term = Term.find(params[:id])
+      if @term.update(term_params)
+        redirect_to admin_terms_path
+      else
+        render 'edit'
+      end
     end
 
     def destroy

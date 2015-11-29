@@ -19,6 +19,16 @@ module Admin
     end
 
     def edit
+      @symptom = Symptom.find(params[:id])
+    end
+
+    def update
+      @symptom = Symptom.find(params[:id])
+      if @symptom.update(symptom_params)
+        redirect_to admin_symptoms_path
+      else
+        render 'edit'
+      end
     end
 
     def destroy

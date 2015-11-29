@@ -22,11 +22,14 @@
         <div class="col-md-3">
           <p><%= symptom.title %></p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-3">
           <p><%= symptom.description %><p>
         </div>
         <div class="col-md-3">
           <p><%= link_to 'View Available Advice', admin_symptom_path(symptom) %><p>
+        </div>
+        <div class="col-md-3">
+          <p><%= link_to 'edit', edit_admin_symptom_path(symptom) %><p>
         </div>
         <div class="col-md-3">
           <%= button_to "delete", {action: 'destroy',

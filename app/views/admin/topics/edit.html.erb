@@ -1,0 +1,17 @@
+<h1 class='page-title'>Edit Topic</h1>
+
+<%= form_for :topic, url: admin_topic_path(@topic), method: :patch do |f| %>
+  <p>
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </p>
+
+  <p>
+    <%= f.label :description %><br>
+    <%= f.text_area :description %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

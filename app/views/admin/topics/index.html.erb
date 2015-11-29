@@ -2,33 +2,28 @@
   <h1>Family Planning Topic</h1>
 </div>
 
-<div class="new">
+<div class="row new">
   <%= link_to 'create new topic', new_admin_topic_path %>
-</div>
+</div><br/>
 
 <div class="row">
   <div class="data-list col-md-9">
-    <div class="row row-data head">
-      <div class="col-md-3">
-        <h3>Name</h3>
-      </div>
-      <div class="col-md-3">
-        <h3>Description</h3>
-      </div>
-    </div>
 
     <% @topics.each do |topic| %>
       <div class="row row-data">
-        <div class="col-md-3">
-          <p><%= topic.name %></p>
+        <div class="col-md-1">
+          <p><strong>Name:</strong> <%= topic.name %></p>
         </div>
         <div class="col-md-6">
-          <p><%= topic.description %><p>
+          <p><strong>Description:</strong> <%= topic.description %><p>
         </div>
         <div class="col-md-3">
           <p><%= link_to 'View Available Advice', admin_topic_path(topic) %><p>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-1">
+          <p><%= link_to 'edit', edit_admin_topic_path(topic) %><p>
+        </div>
+        <div class="col-md-1">
           <%= button_to "delete", {action: 'destroy',
                                    id: topic.id }, method: :delete %>
         </div>

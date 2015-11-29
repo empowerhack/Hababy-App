@@ -1,0 +1,22 @@
+<h1 class='page-title'>Edit Term</h1>
+
+<%= form_for :term, url: admin_term_path(@term), method: :patch do |f| %>
+  <p>
+    <%= f.label :month_in_term %><span> (number)</span><br>
+    <%= f.number_field :month %>
+  </p>
+
+  <p>
+    <%= f.label :ante_natal? %><br>
+    <%= f.check_box :ante_natal %>
+  </p>
+
+  <p>
+    <%= f.label :post_natal? %><br>
+    <%= f.check_box :post_natal %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
