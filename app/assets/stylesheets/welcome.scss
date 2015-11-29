@@ -4,6 +4,9 @@
 
 body {
   font-size: 24px;
+  @media only screen and (min-width: 48em) {
+    font-size: 48px;
+  }
 }
 
 
@@ -107,6 +110,42 @@ section.terms {
 }
 
 
+
+.topics {
+  .topic {
+    
+    border-style: solid;
+    border-radius: 15px;
+    border-width: thin;
+    background-color: #B69CC2;
+    .button {
+      display: block;
+      margin: 10px 0 0 0;
+      padding: 6px;
+      text-align: center;
+      background-color: #DDDDDD !important;
+      color: #31708F;
+
+      border-radius: 5px !important;
+    }
+    .description {
+      font-style: italic;
+      font-size: large;
+      margin-bottom: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+}
+
+.topics {
+  > .row:nth-child(odd) .topic{
+    background-color: #B69CC2;
+  }
+  > .row:nth-child(even) .topic{
+    background-color: #EBBAC9;
+  }
+}
 
 
 
