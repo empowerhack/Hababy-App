@@ -48,6 +48,18 @@ section.welcome {
   }
 }
 
+section.terms {
+  ul {
+    list-style: none;
+    li {
+      display: inline;
+      form {
+        display: inline;
+      }
+    }
+  }
+}
+
 
 
 

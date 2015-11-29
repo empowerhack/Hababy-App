@@ -16435,3 +16435,981 @@ WHERE c.contype = 'f'
   AND t3.nspname = ANY (current_schemas(false))
 ORDER BY c.conname
 [0m
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:06:28 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[35mTerm Load (0.9ms)[0m  SELECT "terms".* FROM "terms"
+  Rendered admin/terms/index.html within layouts/application (19.8ms)
+Completed 200 OK in 101ms (Views: 85.6ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:06:29 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[36mTerm Load (0.4ms)[0m  [1mSELECT "terms".* FROM "terms"[0m
+  Rendered admin/terms/index.html within layouts/application (3.2ms)
+Completed 200 OK in 185ms (Views: 183.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application-33e26645e8d6f04f56e9342dd4f850fd.css?body=1" for ::1 at 2015-11-29 14:06:29 +0000
+
+
+Started GET "/assets/welcome-9231c159f8cc2a6a3b76c8f240c3b2bb.css?body=1" for ::1 at 2015-11-29 14:06:29 +0000
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:06:29 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:06:29 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:06:29 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:06:29 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:06:29 +0000
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:08:51 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[35mTerm Load (0.8ms)[0m  SELECT "terms".* FROM "terms"
+  Rendered admin/terms/index.html within layouts/application (21.2ms)
+Completed 200 OK in 245ms (Views: 226.2ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/assets/application-33e26645e8d6f04f56e9342dd4f850fd.css?body=1" for ::1 at 2015-11-29 14:08:52 +0000
+
+
+Started GET "/assets/welcome-9231c159f8cc2a6a3b76c8f240c3b2bb.css?body=1" for ::1 at 2015-11-29 14:08:52 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:08:52 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:08:52 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:08:52 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:08:52 +0000
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:08:52 +0000
+
+
+Started DELETE "/admin/terms/2" for ::1 at 2015-11-29 14:08:54 +0000
+Processing by Admin::TermsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Fn8Pwne1t5tAKWSW1fIA6ytGrkZON7KfHrIHWYCDXbk2WibPmzTRTz51ucPzSACt9ScXqhjvCRFFermQq3R6Og==", "id"=>"2"}
+  [1m[36mTerm Load (0.6ms)[0m  [1mSELECT  "terms".* FROM "terms" WHERE "terms"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "terms" WHERE "terms"."id" = $1[0m  [["id", 2]]
+  [1m[35m (0.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/admin/countries
+Completed 302 Found in 11ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/admin/countries" for ::1 at 2015-11-29 14:08:54 +0000
+Processing by Admin::CountriesController#index as HTML
+  [1m[36mCountry Load (0.5ms)[0m  [1mSELECT "countries".* FROM "countries"[0m
+  Rendered admin/countries/index.html within layouts/application (12.1ms)
+Completed 200 OK in 56ms (Views: 47.6ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/assets/welcome-9231c159f8cc2a6a3b76c8f240c3b2bb.css?body=1" for ::1 at 2015-11-29 14:08:54 +0000
+
+
+Started GET "/assets/application-33e26645e8d6f04f56e9342dd4f850fd.css?body=1" for ::1 at 2015-11-29 14:08:54 +0000
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:08:54 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:08:54 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:08:54 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:08:54 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:08:54 +0000
+
+
+Started GET "/admin/countries" for ::1 at 2015-11-29 14:09:30 +0000
+Processing by Admin::CountriesController#index as HTML
+  [1m[35mCountry Load (0.5ms)[0m  SELECT "countries".* FROM "countries"
+  Rendered admin/countries/index.html within layouts/application (10.2ms)
+Completed 200 OK in 62ms (Views: 54.6ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/welcome-9231c159f8cc2a6a3b76c8f240c3b2bb.css?body=1" for ::1 at 2015-11-29 14:09:31 +0000
+
+
+Started GET "/assets/application-33e26645e8d6f04f56e9342dd4f850fd.css?body=1" for ::1 at 2015-11-29 14:09:31 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:09:31 +0000
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:09:31 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:09:31 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:09:31 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:09:31 +0000
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:09:33 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[36mTerm Load (0.4ms)[0m  [1mSELECT "terms".* FROM "terms"[0m
+  Rendered admin/terms/index.html within layouts/application (10.5ms)
+Completed 200 OK in 219ms (Views: 201.4ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:09:33 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[35mTerm Load (0.4ms)[0m  SELECT "terms".* FROM "terms"
+  Rendered admin/terms/index.html within layouts/application (2.3ms)
+Completed 200 OK in 38ms (Views: 36.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/welcome-9231c159f8cc2a6a3b76c8f240c3b2bb.css?body=1" for ::1 at 2015-11-29 14:09:33 +0000
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:09:33 +0000
+
+
+Started GET "/assets/application-33e26645e8d6f04f56e9342dd4f850fd.css?body=1" for ::1 at 2015-11-29 14:09:33 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:09:33 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:09:33 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:09:33 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:09:33 +0000
+
+
+Started DELETE "/admin/terms/3" for ::1 at 2015-11-29 14:09:39 +0000
+Processing by Admin::TermsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"0whE1m06aBmIMHuHb8wtfjempClXemlIzDhZz2lSRBPzLW3bgbsOzfZsptJJdi046ccdxQGi0saX8OcGQqVjkA==", "id"=>"3"}
+  [1m[36mTerm Load (0.4ms)[0m  [1mSELECT  "terms".* FROM "terms" WHERE "terms"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "terms" WHERE "terms"."id" = $1[0m  [["id", 3]]
+  [1m[35m (0.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/admin/terms
+Completed 302 Found in 6ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:09:39 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[36mTerm Load (0.3ms)[0m  [1mSELECT "terms".* FROM "terms"[0m
+  Rendered admin/terms/index.html within layouts/application (1.4ms)
+Completed 200 OK in 121ms (Views: 119.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/welcome-9231c159f8cc2a6a3b76c8f240c3b2bb.css?body=1" for ::1 at 2015-11-29 14:09:40 +0000
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:09:40 +0000
+
+
+Started GET "/assets/application-33e26645e8d6f04f56e9342dd4f850fd.css?body=1" for ::1 at 2015-11-29 14:09:40 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:09:40 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:09:40 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:09:40 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:09:40 +0000
+
+
+Started GET "/admin/terms/new" for ::1 at 2015-11-29 14:09:43 +0000
+Processing by Admin::TermsController#new as HTML
+  Rendered admin/terms/new.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 60ms (Views: 57.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/terms" for ::1 at 2015-11-29 14:09:46 +0000
+Processing by Admin::TermsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XT9aRuNXRz1M5sbV0M6Qb1FIFEi7YY61Hfifu2ehVQB9GnNLD9Yh6TK6G4D2dJApjymtpO25NTtGMCFyTFZygw==", "term"=>{"month"=>"4", "ante_natal"=>"0", "post_natal"=>"0"}, "commit"=>"Save Term"}
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "terms" ("month", "ante_natal", "post_natal") VALUES ($1, $2, $3) RETURNING "id"[0m  [["month", 4], ["ante_natal", "f"], ["post_natal", "f"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/admin/countries
+Completed 302 Found in 10ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/admin/countries" for ::1 at 2015-11-29 14:09:46 +0000
+Processing by Admin::CountriesController#index as HTML
+  [1m[36mCountry Load (0.5ms)[0m  [1mSELECT "countries".* FROM "countries"[0m
+  Rendered admin/countries/index.html within layouts/application (2.7ms)
+Completed 200 OK in 132ms (Views: 130.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/welcome-9231c159f8cc2a6a3b76c8f240c3b2bb.css?body=1" for ::1 at 2015-11-29 14:09:46 +0000
+
+
+Started GET "/assets/application-33e26645e8d6f04f56e9342dd4f850fd.css?body=1" for ::1 at 2015-11-29 14:09:46 +0000
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:09:46 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:09:46 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:09:46 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:09:46 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:09:46 +0000
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:10:03 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[35mTerm Load (0.4ms)[0m  SELECT "terms".* FROM "terms"
+  Rendered admin/terms/index.html within layouts/application (10.3ms)
+Completed 200 OK in 62ms (Views: 52.2ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:10:03 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[36mTerm Load (0.5ms)[0m  [1mSELECT "terms".* FROM "terms"[0m
+  Rendered admin/terms/index.html within layouts/application (3.0ms)
+Completed 200 OK in 161ms (Views: 158.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/welcome-9231c159f8cc2a6a3b76c8f240c3b2bb.css?body=1" for ::1 at 2015-11-29 14:10:04 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:10:04 +0000
+
+
+Started GET "/assets/application-33e26645e8d6f04f56e9342dd4f850fd.css?body=1" for ::1 at 2015-11-29 14:10:04 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:10:04 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:10:04 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:10:04 +0000
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:10:04 +0000
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:10:41 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[35mTerm Load (0.5ms)[0m  SELECT "terms".* FROM "terms"
+  Rendered admin/terms/index.html within layouts/application (4.9ms)
+Completed 200 OK in 52ms (Views: 50.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application-33e26645e8d6f04f56e9342dd4f850fd.css?body=1" for ::1 at 2015-11-29 14:10:42 +0000
+
+
+Started GET "/assets/welcome-9231c159f8cc2a6a3b76c8f240c3b2bb.css?body=1" for ::1 at 2015-11-29 14:10:42 +0000
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:10:42 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:10:42 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:10:42 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:10:42 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:10:42 +0000
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:10:53 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[36mTerm Load (0.4ms)[0m  [1mSELECT "terms".* FROM "terms"[0m
+  Rendered admin/terms/index.html within layouts/application (84.7ms)
+Completed 200 OK in 119ms (Views: 117.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application-33e26645e8d6f04f56e9342dd4f850fd.css?body=1" for ::1 at 2015-11-29 14:10:53 +0000
+
+
+Started GET "/assets/welcome-9231c159f8cc2a6a3b76c8f240c3b2bb.css?body=1" for ::1 at 2015-11-29 14:10:53 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:10:53 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:10:53 +0000
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:10:53 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:10:53 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:10:53 +0000
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:11:21 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[35mTerm Load (0.5ms)[0m  SELECT "terms".* FROM "terms"
+  Rendered admin/terms/index.html within layouts/application (4.5ms)
+Completed 200 OK in 45ms (Views: 43.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:11:21 +0000
+
+
+Started GET "/assets/welcome-9231c159f8cc2a6a3b76c8f240c3b2bb.css?body=1" for ::1 at 2015-11-29 14:11:21 +0000
+
+
+Started GET "/assets/application-33e26645e8d6f04f56e9342dd4f850fd.css?body=1" for ::1 at 2015-11-29 14:11:21 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:11:21 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:11:21 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:11:21 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:11:21 +0000
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:11:33 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[36mTerm Load (0.6ms)[0m  [1mSELECT "terms".* FROM "terms"[0m
+  Rendered admin/terms/index.html within layouts/application (4.9ms)
+Completed 200 OK in 41ms (Views: 39.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/welcome-9231c159f8cc2a6a3b76c8f240c3b2bb.css?body=1" for ::1 at 2015-11-29 14:11:34 +0000
+
+
+Started GET "/assets/application-33e26645e8d6f04f56e9342dd4f850fd.css?body=1" for ::1 at 2015-11-29 14:11:34 +0000
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:11:34 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:11:34 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:11:34 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:11:34 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:11:34 +0000
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:11:48 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[35mTerm Load (0.4ms)[0m  SELECT "terms".* FROM "terms"
+  Rendered admin/terms/index.html within layouts/application (4.5ms)
+Completed 200 OK in 44ms (Views: 42.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/welcome-9231c159f8cc2a6a3b76c8f240c3b2bb.css?body=1" for ::1 at 2015-11-29 14:11:49 +0000
+
+
+Started GET "/assets/application-33e26645e8d6f04f56e9342dd4f850fd.css?body=1" for ::1 at 2015-11-29 14:11:49 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:11:49 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:11:49 +0000
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:11:49 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:11:49 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:11:49 +0000
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:12:02 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[36mTerm Load (0.7ms)[0m  [1mSELECT "terms".* FROM "terms"[0m
+  Rendered admin/terms/index.html within layouts/application (4.5ms)
+Completed 200 OK in 46ms (Views: 43.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/welcome-9231c159f8cc2a6a3b76c8f240c3b2bb.css?body=1" for ::1 at 2015-11-29 14:12:02 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:12:02 +0000
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:12:02 +0000
+
+
+Started GET "/assets/application-33e26645e8d6f04f56e9342dd4f850fd.css?body=1" for ::1 at 2015-11-29 14:12:02 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:12:02 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:12:02 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:12:02 +0000
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:12:06 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[35mTerm Load (0.5ms)[0m  SELECT "terms".* FROM "terms"
+  Rendered admin/terms/index.html within layouts/application (4.3ms)
+Completed 200 OK in 51ms (Views: 49.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/welcome-9231c159f8cc2a6a3b76c8f240c3b2bb.css?body=1" for ::1 at 2015-11-29 14:12:06 +0000
+
+
+Started GET "/assets/application-33e26645e8d6f04f56e9342dd4f850fd.css?body=1" for ::1 at 2015-11-29 14:12:06 +0000
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:12:06 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:12:06 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:12:06 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:12:06 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:12:06 +0000
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:12:11 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[36mTerm Load (0.5ms)[0m  [1mSELECT "terms".* FROM "terms"[0m
+  Rendered admin/terms/index.html within layouts/application (3.7ms)
+Completed 200 OK in 38ms (Views: 36.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/welcome-9231c159f8cc2a6a3b76c8f240c3b2bb.css?body=1" for ::1 at 2015-11-29 14:12:11 +0000
+
+
+Started GET "/assets/application-33e26645e8d6f04f56e9342dd4f850fd.css?body=1" for ::1 at 2015-11-29 14:12:11 +0000
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:12:11 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:12:11 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:12:11 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:12:11 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:12:11 +0000
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:12:14 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[35mTerm Load (0.4ms)[0m  SELECT "terms".* FROM "terms"
+  Rendered admin/terms/index.html within layouts/application (3.2ms)
+Completed 200 OK in 122ms (Views: 120.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application-33e26645e8d6f04f56e9342dd4f850fd.css?body=1" for ::1 at 2015-11-29 14:12:15 +0000
+
+
+Started GET "/assets/welcome-9231c159f8cc2a6a3b76c8f240c3b2bb.css?body=1" for ::1 at 2015-11-29 14:12:15 +0000
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:12:15 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:12:15 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:12:15 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:12:15 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:12:15 +0000
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:12:19 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[36mTerm Load (0.4ms)[0m  [1mSELECT "terms".* FROM "terms"[0m
+  Rendered admin/terms/index.html within layouts/application (3.3ms)
+Completed 200 OK in 40ms (Views: 38.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application-33e26645e8d6f04f56e9342dd4f850fd.css?body=1" for ::1 at 2015-11-29 14:12:19 +0000
+
+
+Started GET "/assets/welcome-9231c159f8cc2a6a3b76c8f240c3b2bb.css?body=1" for ::1 at 2015-11-29 14:12:19 +0000
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:12:19 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:12:19 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:12:19 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:12:19 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:12:19 +0000
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:16:26 +0000
+Processing by Admin::TermsController#index as HTML
+  Rendered admin/terms/index.html within layouts/application (9.7ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/rosiebrigham/Code/Hababy/app/views/admin/terms/index.html:59: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/admin/terms/index.html:59: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /Users/rosiebrigham/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.9ms)
+  Rendered /Users/rosiebrigham/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/rosiebrigham/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/rosiebrigham/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (32.0ms)
+  Rendered /Users/rosiebrigham/.rvm/gems/ruby-2.0.0-p451/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/rosiebrigham/.rvm/gems/ruby-2.0.0-p451/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/rosiebrigham/.rvm/gems/ruby-2.0.0-p451/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/rosiebrigham/.rvm/gems/ruby-2.0.0-p451/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/rosiebrigham/.rvm/gems/ruby-2.0.0-p451/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (27.0ms)
+  Rendered /Users/rosiebrigham/.rvm/gems/ruby-2.0.0-p451/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/rosiebrigham/.rvm/gems/ruby-2.0.0-p451/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/rosiebrigham/.rvm/gems/ruby-2.0.0-p451/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (58.9ms)
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:16:40 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[35mTerm Load (0.9ms)[0m  SELECT "terms".* FROM "terms"
+  Rendered admin/terms/index.html within layouts/application (6.0ms)
+Completed 200 OK in 130ms (Views: 127.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application-33e26645e8d6f04f56e9342dd4f850fd.css?body=1" for ::1 at 2015-11-29 14:16:40 +0000
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:16:40 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:16:40 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:16:40 +0000
+
+
+Started GET "/assets/welcome-9231c159f8cc2a6a3b76c8f240c3b2bb.css?body=1" for ::1 at 2015-11-29 14:16:40 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:16:40 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:16:40 +0000
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:18:31 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[36mTerm Load (1.8ms)[0m  [1mSELECT "terms".* FROM "terms"[0m
+  Rendered admin/terms/index.html within layouts/application (30.9ms)
+Completed 200 OK in 426ms (Views: 415.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/welcome-dfacb8ab4e5f1a65ac6e6abd70d30383.css?body=1" for ::1 at 2015-11-29 14:18:32 +0000
+
+
+Started GET "/assets/application-47b5a9fefe7b640fb1d6a93982344aa8.css?body=1" for ::1 at 2015-11-29 14:18:32 +0000
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:18:32 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:18:32 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:18:32 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:18:32 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:18:32 +0000
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:18:44 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[35mTerm Load (0.6ms)[0m  SELECT "terms".* FROM "terms"
+  Rendered admin/terms/index.html within layouts/application (3.8ms)
+Completed 200 OK in 164ms (Views: 162.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/welcome-68bc6f875164f5bb63567bddc5e6827a.css?body=1" for ::1 at 2015-11-29 14:18:45 +0000
+
+
+Started GET "/assets/application-a90ba8f8bdb58e872172fe44232b095f.css?body=1" for ::1 at 2015-11-29 14:18:45 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:18:45 +0000
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:18:45 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:18:45 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:18:45 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:18:45 +0000
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:18:49 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[36mTerm Load (0.4ms)[0m  [1mSELECT "terms".* FROM "terms"[0m
+  Rendered admin/terms/index.html within layouts/application (2.7ms)
+Completed 200 OK in 167ms (Views: 165.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/welcome-9971d23394ee9a94ce3f720346563d41.css?body=1" for ::1 at 2015-11-29 14:18:49 +0000
+
+
+Started GET "/assets/application-8fabe7ee9c4119ac6afbb3147c24808d.css?body=1" for ::1 at 2015-11-29 14:18:49 +0000
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:18:49 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:18:49 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:18:49 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:18:49 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:18:49 +0000
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:18:52 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[35mTerm Load (0.4ms)[0m  SELECT "terms".* FROM "terms"
+  Rendered admin/terms/index.html within layouts/application (2.4ms)
+Completed 200 OK in 175ms (Views: 173.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/welcome-a1f425c3f9312896a6d314dae598779f.css?body=1" for ::1 at 2015-11-29 14:18:53 +0000
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:18:53 +0000
+
+
+Started GET "/assets/application-96560a7147a4bc10120f037e18ec6710.css?body=1" for ::1 at 2015-11-29 14:18:53 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:18:53 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:18:53 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:18:53 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:18:53 +0000
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:19:16 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[36mTerm Load (0.4ms)[0m  [1mSELECT "terms".* FROM "terms"[0m
+  Rendered admin/terms/index.html within layouts/application (5.2ms)
+Completed 200 OK in 134ms (Views: 131.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/welcome-a1f425c3f9312896a6d314dae598779f.css?body=1" for ::1 at 2015-11-29 14:19:16 +0000
+
+
+Started GET "/assets/application-96560a7147a4bc10120f037e18ec6710.css?body=1" for ::1 at 2015-11-29 14:19:16 +0000
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:19:16 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:19:16 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:19:16 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:19:16 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:19:16 +0000
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:19:23 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[35mTerm Load (0.4ms)[0m  SELECT "terms".* FROM "terms"
+  Rendered admin/terms/index.html within layouts/application (3.3ms)
+Completed 200 OK in 44ms (Views: 42.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/welcome-a1f425c3f9312896a6d314dae598779f.css?body=1" for ::1 at 2015-11-29 14:19:23 +0000
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:19:23 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:19:23 +0000
+
+
+Started GET "/assets/application-96560a7147a4bc10120f037e18ec6710.css?body=1" for ::1 at 2015-11-29 14:19:23 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:19:23 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:19:23 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:19:23 +0000
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:19:44 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[36mTerm Load (0.5ms)[0m  [1mSELECT "terms".* FROM "terms"[0m
+  Rendered admin/terms/index.html within layouts/application (2.7ms)
+Completed 200 OK in 211ms (Views: 209.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/welcome-7b8966e161564ed1b9486a205033fce2.css?body=1" for ::1 at 2015-11-29 14:19:45 +0000
+
+
+Started GET "/assets/application-86d22d4c454a5946b0d6399cd37c83d2.css?body=1" for ::1 at 2015-11-29 14:19:45 +0000
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:19:45 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:19:45 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:19:45 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:19:45 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:19:45 +0000
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:20:39 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[35mTerm Load (0.4ms)[0m  SELECT "terms".* FROM "terms"
+  Rendered admin/terms/index.html within layouts/application (4.3ms)
+Completed 200 OK in 132ms (Views: 129.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/welcome-7b8966e161564ed1b9486a205033fce2.css?body=1" for ::1 at 2015-11-29 14:20:39 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:20:39 +0000
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:20:39 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:20:39 +0000
+
+
+Started GET "/assets/application-86d22d4c454a5946b0d6399cd37c83d2.css?body=1" for ::1 at 2015-11-29 14:20:39 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:20:39 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:20:39 +0000
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:20:51 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[36mTerm Load (0.4ms)[0m  [1mSELECT "terms".* FROM "terms"[0m
+  Rendered admin/terms/index.html within layouts/application (3.4ms)
+Completed 200 OK in 43ms (Views: 41.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/welcome-7b8966e161564ed1b9486a205033fce2.css?body=1" for ::1 at 2015-11-29 14:20:52 +0000
+
+
+Started GET "/assets/application-86d22d4c454a5946b0d6399cd37c83d2.css?body=1" for ::1 at 2015-11-29 14:20:52 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:20:52 +0000
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:20:52 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:20:52 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:20:52 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:20:52 +0000
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:21:26 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[35mTerm Load (0.6ms)[0m  SELECT "terms".* FROM "terms"
+  Rendered admin/terms/index.html within layouts/application (5.4ms)
+Completed 200 OK in 128ms (Views: 126.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/welcome-7b8966e161564ed1b9486a205033fce2.css?body=1" for ::1 at 2015-11-29 14:21:27 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:21:27 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:21:27 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:21:27 +0000
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:21:27 +0000
+
+
+Started GET "/assets/application-86d22d4c454a5946b0d6399cd37c83d2.css?body=1" for ::1 at 2015-11-29 14:21:27 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:21:27 +0000
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:21:48 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[36mTerm Load (1.8ms)[0m  [1mSELECT "terms".* FROM "terms"[0m
+  Rendered admin/terms/index.html within layouts/application (5.9ms)
+Completed 200 OK in 44ms (Views: 40.8ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/welcome-7b8966e161564ed1b9486a205033fce2.css?body=1" for ::1 at 2015-11-29 14:21:48 +0000
+
+
+Started GET "/assets/application-86d22d4c454a5946b0d6399cd37c83d2.css?body=1" for ::1 at 2015-11-29 14:21:48 +0000
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:21:48 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:21:48 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:21:48 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:21:48 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:21:48 +0000
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:21:57 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[35mTerm Load (0.4ms)[0m  SELECT "terms".* FROM "terms"
+  Rendered admin/terms/index.html within layouts/application (3.5ms)
+Completed 200 OK in 39ms (Views: 37.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application-86d22d4c454a5946b0d6399cd37c83d2.css?body=1" for ::1 at 2015-11-29 14:21:57 +0000
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:21:57 +0000
+
+
+Started GET "/assets/welcome-7b8966e161564ed1b9486a205033fce2.css?body=1" for ::1 at 2015-11-29 14:21:57 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:21:57 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:21:57 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:21:57 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:21:57 +0000
+
+
+Started GET "/admin/terms" for ::1 at 2015-11-29 14:22:04 +0000
+Processing by Admin::TermsController#index as HTML
+  [1m[36mTerm Load (0.5ms)[0m  [1mSELECT "terms".* FROM "terms"[0m
+  Rendered admin/terms/index.html within layouts/application (4.6ms)
+Completed 200 OK in 41ms (Views: 38.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery-2ebc4d7dee7ed5002a2ec81cda5c42ea.js?body=1" for ::1 at 2015-11-29 14:22:04 +0000
+
+
+Started GET "/assets/jquery_ujs-521bca1d9ff04afac47673092d5b6946.js?body=1" for ::1 at 2015-11-29 14:22:04 +0000
+
+
+Started GET "/assets/welcome-a669128dbe8195a3570b7916f9695283.js?body=1" for ::1 at 2015-11-29 14:22:04 +0000
+
+
+Started GET "/assets/application-86d22d4c454a5946b0d6399cd37c83d2.css?body=1" for ::1 at 2015-11-29 14:22:04 +0000
+
+
+Started GET "/assets/turbolinks-4b992ee9fec0c5b3d86850e54fb1d292.js?body=1" for ::1 at 2015-11-29 14:22:04 +0000
+
+
+Started GET "/assets/welcome-7b8966e161564ed1b9486a205033fce2.css?body=1" for ::1 at 2015-11-29 14:22:04 +0000
+
+
+Started GET "/assets/application-fc72d7470980f4f3893936b862cb06e1.js?body=1" for ::1 at 2015-11-29 14:22:04 +0000

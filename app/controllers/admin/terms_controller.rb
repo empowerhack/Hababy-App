@@ -7,7 +7,7 @@ module Admin
 
     def create
       Term.create(term_params)
-      redirect_to admin_countries_path
+      redirect_to admin_terms_path
     end
 
     def new
@@ -19,11 +19,11 @@ module Admin
     def destroy
       term = Term.find(params[:id])
       term.destroy
-      redirect_to admin_countries_path
+      redirect_to admin_terms_path
     end
 
     def term_params
-      params.require(:term).permit(:iso, :iso3, :name)
+      params.require(:term).permit(:month, :ante_natal, :post_natal)
     end
 
   end
