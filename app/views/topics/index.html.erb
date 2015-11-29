@@ -1,18 +1,13 @@
 <h2>When planning for a family you should be aware that the following conditions are known to increase health risks for both the mother and child:</h2>
 
 
-<% @topics.each do |topic| %>
-
-  <section class="topics">
-
+<section class="topics">
+  <% @topics.each do |topic| %>
     <div class="row">
-      <div class="col-md-12">
-         <a href="<%= topic_path(topic.id) %>" class="button">
-           <%=topic.name%>
-         </a>
+      <div class="col-md-12 topic">
+           <strong><%=topic.name%>:</strong>
+           <%= topic.description %>
       </div>
     </div>
-
-  </section>
-
-<% end %>
+  <% end %>
+</section>
