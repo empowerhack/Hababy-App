@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151129130648) do
+ActiveRecord::Schema.define(version: 20151129134320) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -22,6 +22,8 @@ ActiveRecord::Schema.define(version: 20151129130648) do
     t.integer "country_id"
     t.integer "symptom_id"
     t.integer "topic_id"
+    t.string  "arabic_title"
+    t.string  "arabic_description"
   end
 
   create_table "countries", force: :cascade do |t|
@@ -34,6 +36,8 @@ ActiveRecord::Schema.define(version: 20151129130648) do
     t.text    "description"
     t.string  "title"
     t.integer "term_id"
+    t.text    "arabic_description"
+    t.string  "arabic_title"
   end
 
   create_table "terms", force: :cascade do |t|

@@ -1,12 +1,15 @@
+
+
 <% @symptoms.each do |symptom| %>
 
   <section class="symptoms">
-  Symptoms in <%= @term.month %>
+    Symptoms in <%= @term.month %> month of pregnancy
     <div class="row">
       <div class="col-md-12">
-         <a href="<%= symptom_path(symptom.id) %>" class="button">
-           <%=symptom.title%>
-         </a>
+        <%=symptom.title%>
+        <%= symptom.description %>
+
+        For advice please click <a href="<%= symptom_path(symptom.id) %>">here</a>
       </div>
     </div>
 
