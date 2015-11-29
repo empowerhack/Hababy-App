@@ -11,12 +11,13 @@ Rails.application.routes.draw do
   get '/arabic' => 'welcome#arabic'
 
   resources :symptoms, only: [:index, :show]
-  resources :topics, only: [:index]
+  resources :topics, only: [:index, :show]
 
   namespace :admin do
     resources :symptoms
     resources :advices
     resources :countries
+    resources :topics
   end
 
   # Example of named route that can be invoked with purchase_url(id: product.id)

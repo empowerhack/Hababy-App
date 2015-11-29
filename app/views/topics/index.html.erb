@@ -1,1 +1,15 @@
-<%= @topics %>
+<% @topics.each do |topic| %>
+
+  <section class="topics">
+
+    <div class="row">
+      <div class="col-md-12">
+         <a href="<%= topic_path(topic.id) %>" class="button">
+           <%=topic.name%>
+         </a>
+      </div>
+    </div>
+
+  </section>
+
+<% end %>

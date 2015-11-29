@@ -1,0 +1,25 @@
+<div class="row">
+  <h1><%= @topic.name %></h1>
+</div>
+
+<div class="row">
+  <h3><%= @topic.description %></h3>
+</div>
+
+<div class="row">
+  <h3>Current Advice given</h3>
+
+  <% if @advices.present? %>
+    <% @advices.each do |advice| %>
+      <div class="row row-data">
+        <div class="col-md-6">
+          <p><%= advice.description %><p>
+        </div>
+      </div>
+    <% end %>
+  <% else %>
+    I'm sorry - there is no advice document on this topic yet, please check back later.
+  <% end %>
+
+  </div>
+</div>

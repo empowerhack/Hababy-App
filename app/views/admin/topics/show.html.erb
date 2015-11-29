@@ -1,0 +1,36 @@
+<div class="row">
+  <h1><%= @topic.name %></h1>
+</div>
+
+<div class="row">
+  <h3><%= @topic.description %></h3>
+</div>
+
+<div class="row">
+  <h3>Current Advice given</h3>
+  <p>(you can edit these on the advice admin page)</p>
+
+  <% if @advices.present? %>
+    <% @advices.each do |advice| %>
+      <div class="row row-data">
+        <div class="col-md-3">
+          <p><%= advice.title %></p>
+        </div>
+        <div class="col-md-6">
+          <p><%= advice.description %><p>
+        </div>
+        <div class="col-md-3">
+          <p><%= link_to 'Go to advice doument', admin_advice_path(advice) %><p>
+        </div>
+        <div class="col-md-3">
+          <%= button_to "delete", {action: 'destroy',
+                                   id: advice.id }, method: :delete %>
+        </div>
+      </div>
+    <% end %>
+  <% else %>
+    <p>Whoops - looks like there is not advice for this topic yet - pop to the <%= link_to 'advice admin page', admin_advices_path %> and create a new advice document</p>
+  <% end %>
+
+  </div>
+</div>

@@ -22,13 +22,13 @@
   Please choose a
   <p>
     <%= f.label :symptom %><br>
-    <%= f.collection_select(:symptom_id, Symptom.all, :id, :title) %>
+    <%= f.collection_select(:symptom_id, Symptom.all, :id, :title, default: nil, include_blank: 'Please select the symptom you want to give advice on') %>
   </p>
 
   or a
   <p>
     <%= f.label :topic %><br>
-    <%= f.collection_select(:topic_id, Topic.all, :id, :name) %>
+    <%= f.collection_select(:topic_id, Topic.all, :id, :name, default: nil, include_blank: 'Please select the topic you want to give advice on') %>
   </p>  
   <p>
     <%= f.submit %>

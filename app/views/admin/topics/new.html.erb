@@ -1,0 +1,17 @@
+<h1 class='page-title'>New General Topic</h1>
+
+<%= form_for :topic, url: {action: "create"} do |f| %>
+  <p>
+    <%= f.label :name_of_topic %><br>
+    <%= f.text_field :name %>
+  </p>
+
+  <p>
+    <%= f.label :description_of_general_topic %><br>
+    <%= f.text_area :description %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
