@@ -2,19 +2,19 @@
   <div class="row">
     <!-- <div class="col-md-1 col-sm-12"> -->
       <a href="/topics" class="button">
-        <img class="preggo-image" src="https://s3-eu-west-1.amazonaws.com/habibi/stage<%=000%>.jpg">
+        <img class="preggo-image" src="https://s3-eu-west-1.amazonaws.com/habibi/N_stage<%=000%>.jpg">
       </a>
     <!-- </div> -->
     <% @terms.each do |term| %>
       <!-- <div class="col-md-1 col-sm-12"> -->
         <a href="<%= term_path(term) %>" class="button">
-          <img class="preggo-image" src="https://s3-eu-west-1.amazonaws.com/habibi/stage<%=term.month%>.jpg">
+          <img class="preggo-image" src="https://s3-eu-west-1.amazonaws.com/habibi/N_stage<%=term.month%>.jpg">
         </a>
       <!-- </div> -->
     <% end %>
     <!-- <div class="col-md-1 col-sm-12"> -->
        <a href="<%= term_path(999) %>" class="button">
-        <img class="preggo-image" src="https://s3-eu-west-1.amazonaws.com/habibi/stage<%=999%>.jpg">
+        <img class="preggo-image" src="https://s3-eu-west-1.amazonaws.com/habibi/N_stage<%=999%>.jpg">
       </a>
     <!-- </div> -->
   </div>
