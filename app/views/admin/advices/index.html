@@ -23,8 +23,7 @@
           <p><%= advice.title %></p>
         </div>
         <div class="col-md-6">
-          <p><%= link_to 'View full details', admin_advice_path(advice) %>
-          (such as what symptoms, topics and countries this advice is attached to)</p>
+          <p><%= advice.description %></p>
         </div>
         <div class="col-md-3">
           <%= button_to "delete", {action: 'destroy',
