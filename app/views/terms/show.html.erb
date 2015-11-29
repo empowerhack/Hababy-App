@@ -1,20 +1,18 @@
-<div class="page-title">
+<h2 class="page-title">
   Symptoms in month <%= @term.month %> of pregnancy
   <!-- this needs translating -->
-</div>
-
+</h2>
+<div class="symptoms">
   <% @symptoms.each do |symptom| %>
-
   <div class="row">
-    <div class="col-md-12">
-      <div class="symptoms">
-        <a class="button" href="<%= symptom_path(symptom.id) %>"><%=symptom.title%></a>
-        <div class="description">
-          <%= symptom.description %>
-        </div>
+    <div class="symptom">
+      <h3> <%=symptom.title%> </h3>
+      <div class="description">
+        <%= symptom.description %>. For more information, <a href="<%= symptom_path(symptom.id) %>">click here</a>
       </div>
     </div>
   </div>
+  <% end %>
+</div>
 
 
-<% end %>
