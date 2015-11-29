@@ -30,7 +30,7 @@ module Admin
     private
 
     def symptom_params
-      params.require(:symptom).permit(:title, :description)
+      params.require(:symptom).permit(:title, :description, :term_id)
     end
   end
 end
