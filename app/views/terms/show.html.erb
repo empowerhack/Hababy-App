@@ -1,18 +1,19 @@
-asdasdfsd
+<div class="page-title">
+  Symptoms in month <%= @term.month %> of pregnancy
+</div>
 
-<% @symptoms.each do |symptom| %>
+  <% @symptoms.each do |symptom| %>
 
-  <section class="symptoms">
-    Symptoms in <%= @term.month %> month of pregnancy
-    <div class="row">
-      <div class="col-md-12">
-        <%=symptom.title%>
-        <%= symptom.description %>
-
-        For advice please click <a href="<%= symptom_path(symptom.id) %>">here</a>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="symptoms">
+        <a class="button" href="<%= symptom_path(symptom.id) %>"><%=symptom.title%></a>
+        <div class="description">
+          <%= symptom.description %>
+        </div>
       </div>
     </div>
+  </div>
 
-  </section>
 
 <% end %>
