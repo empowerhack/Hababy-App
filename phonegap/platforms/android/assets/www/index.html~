@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)https://salty-harbor-5470.herokuapp.com/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>HababyBaby</title>
+
+  <link rel="stylesheet" href="./index_files/bootstrap.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="/main.css"> -->
+
+  <link rel="stylesheet" media="all" href="./index_files/application-b4500e912928c2e2f5573a75275b8dd8.css" data-turbolinks-track="true">
+  <script src="./index_files/application-4c9d025d4989a03855cc008445b3cf72.js" data-turbolinks-track="true"></script>
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="pyH1kspK1uAnuoaBss1edvVUo8Fp2LmAtPbfu7gg+GbKy2yvBJD2G8EweLxqjLT5+tSwTDtcnE1goYwkqsEnHQ==">
+</head>
+<body>
+  <div class="body">
+    <div class="container">
+      
+      <section class="welcome">
+  <div id="maintitle"><strong>Hababy</strong></div>
+  <div id="subtitle">Ensure your hababy is a safe baby</div> 
+<br>
+<center>
+  <div class="row">
+    <div class="col-md-6 col-sm-12">
+      <form method="get" action="terms.html">
+        <button style="height:200px;width:200px" type="submit" class="button" value="english">English</button>
+      </form>
+    </div>
+
+    <div id="box" class="col-md-6 col-sm-12">
+      <form method="get" action="terms.html">
+        <button style="height:200px;width:200px" type="submit" class="button">العربية</button>
+      </form>
+
+        </div>
+<center>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+      <footer>
+        <p><strong>Handcrafted at #EmpowerHack London © 2015</strong></p>
+        
+    </footer> 
+  </div>
+
+</section>
+
+
+
+    </div>
+  </div>
+
+
+</body></html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)https://salty-harbor-5470.herokuapp.com/terms -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>HababyBaby</title>
+
+  <link rel="stylesheet" href="./terms_files/bootstrap.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="/main.css"> -->
+
+  <link rel="stylesheet" media="all" href="./terms_files/application-b4500e912928c2e2f5573a75275b8dd8.css" data-turbolinks-track="true">
+  <script src="./terms_files/application-4c9d025d4989a03855cc008445b3cf72.js" data-turbolinks-track="true"></script>
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="6X1wM7Yaqw5CdXYg4r5OX4sl06aGaekBEbq0lbZsTwYATgaodonntMEYmj1Pp/wAc56hDQY9wq7oZIGE/6ja2w==">
+</head>
+<body>
+  <div class="body">
+    <div class="container">
+      <center>
+ <div id="subtitle">Do you see yourself?<br> At which month are you?</div> 
+      <section class="terms">
+  <div class="row">
+    <!-- <div class="col-md-1 col-sm-12"> -->
+      <a href="symptoms0.html" class="button">
+        <img class="preggo-image" src="./terms_files/N_stage0.jpg">
+      </a>
+    <!-- </div> -->
+      <!-- <div class="col-md-1 col-sm-12"> -->
+        <a href="symptoms1.html" class="button">
+          <img class="preggo-image" src="./terms_files/N_stage1.jpg">
+        </a>
+      <!-- </div> -->
+      <!-- <div class="col-md-1 col-sm-12"> -->
+        <a href="symptoms2.html" class="button">
+          <img class="preggo-image" src="./terms_files/N_stage4.jpg">
+        </a>
+      <!-- </div> -->
+      <!-- <div class="col-md-1 col-sm-12"> -->
+        <a href="symptoms3.html" class="button">
+          <img class="preggo-image" src="./terms_files/N_stage7.jpg">
+        </a>
+      <!-- </div> -->
+      <!-- <div class="col-md-1 col-sm-12"> -->
+        <a href="symptoms4.html" class="button">
+          <img class="preggo-image" src="./terms_files/N_stage9.jpg">
+        </a>
+      <!-- </div> -->
+      <!-- <div class="col-md-1 col-sm-12"> -->
+        <a href="symptoms5.html" class="button">
+          <img class="preggo-image" src="./terms_files/N_stage999.jpg">
+        </a>
+      <!-- </div> -->
+    
+  </div>
+<br>
+
+ <div id="subtitle">Where are you travelling?</div> 
+ <form method="get" action="terms.html">
+        <button type="submit" class="button">Turkey</button>
+      </form>
+ <form method="get" action="terms.html">
+        <button type="submit" class="button">Bulgaria</button>
+      </form>
+ <form method="get" action="terms.html">
+        <button type="submit" class="button">Greece</button>
+      </form>
+ <form method="get" action="terms.html">
+        <button type="submit" class="button">Serbia</button>
+      </form>
+ <form method="get" action="terms.html">
+        <button type="submit" class="button">Bosnia/Herz</button>
+      </form>
+ <form method="get" action="terms.html">
+        <button type="submit" class="button">Croatia</button>
+      </form>
+ <form method="get" action="terms.html">
+        <button type="submit" class="button">Slovenia</button>
+      </form>
+ <form method="get" action="terms.html">
+        <button type="submit" class="button">Hungary</button>
+      </form>
+ <form method="get" action="terms.html">
+        <button type="submit" class="button">Austria</button>
+      </form>
+ <form method="get" action="terms.html">
+        <button type="submit" class="button">Czech republic</button>
+      </form>
+ <form method="get" action="terms.html">
+        <button type="submit" class="button">Germany</button>
+      </form>
+
+</section>
+</center>
+    </div>
+  </div>
+
+
+</body></html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)https://salty-harbor-5470.herokuapp.com/terms -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>HababyBaby</title>
+
+  <link rel="stylesheet" href="./terms_files/bootstrap.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="/main.css"> -->
+
+  <link rel="stylesheet" media="all" href="./terms_files/application-b4500e912928c2e2f5573a75275b8dd8.css" data-turbolinks-track="true">
+  <script src="./terms_files/application-4c9d025d4989a03855cc008445b3cf72.js" data-turbolinks-track="true"></script>
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="xSO3wIExSp5XKQIXppFoEZrqT8ufQOCM1Y3FpG52c2Ih3kC5WcdA9xdYY4oxRVOvSYphzjLRNArxiE4Q9TpKng==">
+</head>
+<body>
+  <div class="body">
+    <div class="container">
+      
+      <section class="terms">
+  <div class="row">
+<center>
+How do you see? At which month?
+    <!-- <div class="col-md-1 col-sm-12"> -->
+      <a href="symptoms0.html" class="button">
+        <img class="preggo-image" src="./terms_files/N_stage0.jpg">
+      </a>
+    <!-- </div> -->
+      <!-- <div class="col-md-1 col-sm-12"> -->
+        <a href="symptoms1.html" class="button">
+          <img class="preggo-image" src="./terms_files/N_stage1.jpg">
+        </a>
+      <!-- </div> -->
+      <!-- <div class="col-md-1 col-sm-12"> -->
+        <a href="symptoms2.html" class="button">
+          <img class="preggo-image" src="./terms_files/N_stage4.jpg">
+        </a>
+      <!-- </div> -->
+      <!-- <div class="col-md-1 col-sm-12"> -->
+        <a href="symptoms3.html" class="button">
+          <img class="preggo-image" src="./terms_files/N_stage7.jpg">
+        </a>
+      <!-- </div> -->
+      <!-- <div class="col-md-1 col-sm-12"> -->
+        <a href="symptoms4.html" class="button">
+          <img class="preggo-image" src="./terms_files/N_stage9.jpg">
+        </a>
+      <!-- </div> -->
+      <!-- <div class="col-md-1 col-sm-12"> -->
+        <a href="symptoms5.html" class="button">
+          <img class="preggo-image" src="./terms_files/N_stage999.jpg">
+        </a>
+      <!-- </div> -->
+    </center>
+  </div>
+
+ <div class="row">
+<center>
+ Where are you travelling?<br>
+  <a  class="button">
+          <img width="800" height="700" src="Europe.png">
+        </a>
+</center>
+</div>
+</section>
+
+    </div>
+  </div>
+
+
+</body></html>

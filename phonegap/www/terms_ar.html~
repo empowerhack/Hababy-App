@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)https://salty-harbor-5470.herokuapp.com/terms -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>HababyBaby</title>
+
+  <link rel="stylesheet" href="./terms_files/bootstrap.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="/main.css"> -->
+
+  <link rel="stylesheet" media="all" href="./terms_files/application-b4500e912928c2e2f5573a75275b8dd8.css" data-turbolinks-track="true">
+  <script src="./terms_files/application-4c9d025d4989a03855cc008445b3cf72.js" data-turbolinks-track="true"></script>
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="6X1wM7Yaqw5CdXYg4r5OX4sl06aGaekBEbq0lbZsTwYATgaodonntMEYmj1Pp/wAc56hDQY9wq7oZIGE/6ja2w==">
+</head>
+<body>
+  <div class="body">
+    <div class="container">
+      <center>
+ <div id="subtitle">كيف ترين نفسك؟  <br>  في أي شهر من الحمل أنت؟</div> 
+      <section class="terms">
+  <div class="row">
+    <!-- <div class="col-md-1 col-sm-12"> -->
+      <a href="symptoms0_ar.html" class="button">
+        <img class="preggo-image" src="./terms_files/N_stage0.jpg">
+      </a>
+    <!-- </div> -->
+      <!-- <div class="col-md-1 col-sm-12"> -->
+        <a href="symptoms1_ar.html" class="button">
+          <img class="preggo-image" src="./terms_files/N_stage1.jpg">
+        </a>
+      <!-- </div> -->
+      <!-- <div class="col-md-1 col-sm-12"> -->
+        <a href="symptoms2_ar.html" class="button">
+          <img class="preggo-image" src="./terms_files/N_stage4.jpg">
+        </a>
+      <!-- </div> -->
+      <!-- <div class="col-md-1 col-sm-12"> -->
+        <a href="symptoms3_ar.html" class="button">
+          <img class="preggo-image" src="./terms_files/N_stage7.jpg">
+        </a>
+      <!-- </div> -->
+      <!-- <div class="col-md-1 col-sm-12"> -->
+        <a href="symptoms4_ar.html" class="button">
+          <img class="preggo-image" src="./terms_files/N_stage9.jpg">
+        </a>
+      <!-- </div> -->
+      <!-- <div class="col-md-1 col-sm-12"> -->
+        <a href="symptoms5_ar.html" class="button">
+          <img class="preggo-image" src="./terms_files/N_stage999.jpg">
+        </a>
+      <!-- </div> -->
+    
+  </div>
+<br>
+
+ <div id="subtitle">ماهي وجهة سفرك؟</div> 
+ <form method="get" action="terms_ar.html">
+        <button type="submit" class="button">تركيا</button>
+      </form>
+ <form method="get" action="terms_ar.html">
+        <button type="submit" class="button">بلغاريا</button>
+      </form>
+ <form method="get" action="terms_ar.html">
+        <button type="submit" class="button">اليونان</button>
+      </form>
+ <form method="get" action="terms_ar.html">
+        <button type="submit" class="button">صربيا</button>
+      </form>
+ <form method="get" action="terms_ar.html">
+        <button type="submit" class="button">البوسنة / الهرسك</button>
+      </form>
+ <form method="get" action="terms_ar.html">
+        <button type="submit" class="button">كرواتيا</button>
+      </form>
+ <form method="get" action="terms_ar.html">
+        <button type="submit" class="button">سلوفينيا</button>
+      </form>
+ <form method="get" action="terms_ar.html">
+        <button type="submit" class="button">هنغاريا</button>
+      </form>
+ <form method="get" action="terms_ar.html">
+        <button type="submit" class="button">النمسا</button>
+      </form>
+ <form method="get" action="terms_ar.html">
+        <button type="submit" class="button">جمهورية التشيك</button>
+      </form>
+ <form method="get" action="terms_ar.html">
+        <button type="submit" class="button">ألمانيا</button>
+      </form>
+
+</section>
+</center>
+    </div>
+  </div>
+
+
+</body></html>

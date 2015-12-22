@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)https://salty-harbor-5470.herokuapp.com/terms/7 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>HababyBaby</title>
+
+  <link rel="stylesheet" href="./index_files/bootstrap.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="/main.css"> -->
+
+  <link rel="stylesheet" media="all" href="./index_files/application-b4500e912928c2e2f5573a75275b8dd8.css" data-turbolinks-track="true">
+  <script src="./index_files/application-4c9d025d4989a03855cc008445b3cf72.js" data-turbolinks-track="true"></script>
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="bYaEQRLcXWFk+TkH0Qrow9BGSgS00/7dL61QEU0XGMWJe3M4yipXCCSIWJpG3tN9AyZkARlCKlsLqNul1lshOQ==">
+</head>
+<body>
+  <div class="body">
+    <div class="container">
+      
+      <h2 class="page-title">
+  Symptoms after pregnancy
+  <!-- this needs translating -->
+</h2>
+<div class="symptoms">
+  <div class="row">
+    <div class="symptom">
+      <h3> Breast Milk Leakage </h3>
+      <div class="description">
+        Sometimes milk will leak from your breasts, this is normal. . For more information, <a href="16.html">click here</a>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="symptom">
+      <h3> Yellow Breast Milk </h3>
+      <div class="description">
+        Breast milk is yellow instead of white. For more information, <a href="17.html">click here</a>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="symptom">
+      <h3> Protecting your child from disease </h3>
+      <div class="description">
+        Disease protection for you child, which immunisations do you need? . For more information, <a href="18.html">click here</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+    </div>
+  </div>
+
+
+</body></html>
