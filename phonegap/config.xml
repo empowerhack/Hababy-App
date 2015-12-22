@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="hababy" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>hababy</name>
+    <description>
+        Hababy!
+    </description>
+    <author email="me@alessandrocrimi.com" href="http://www.empowerhack.com">
+ 
+    </author>
+    <content src="index.html" />
+    <preference name="permissions" value="none" />
+    <preference name="orientation" value="default" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="disable-cursor" value="false" />
+    <preference name="android-minSdkVersion" value="14" />
+    <preference name="android-installLocation" value="auto" />
+    <gap:plugin name="org.apache.cordova.battery-status" />
+    <gap:plugin name="org.apache.cordova.camera" />
+    <gap:plugin name="org.apache.cordova.media-capture" />
+    <gap:plugin name="org.apache.cordova.console" />
+    <gap:plugin name="org.apache.cordova.contacts" />
+    <gap:plugin name="org.apache.cordova.device" />
+    <gap:plugin name="org.apache.cordova.device-motion" />
+    <gap:plugin name="org.apache.cordova.device-orientation" />
+    <gap:plugin name="org.apache.cordova.dialogs" />
+    <gap:plugin name="org.apache.cordova.file" />
+    <gap:plugin name="org.apache.cordova.file-transfer" />
+    <gap:plugin name="org.apache.cordova.geolocation" />
+    <gap:plugin name="org.apache.cordova.globalization" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
+    <gap:plugin name="org.apache.cordova.media" />
+    <gap:plugin name="org.apache.cordova.network-information" />
+    <gap:plugin name="org.apache.cordova.splashscreen" />
+    <gap:plugin name="org.apache.cordova.vibration" />
+    <icon src="www/icon.png" />
+    <icon gap:platform="android" gap:qualifier="ldpi" src="www/icon.png" />
+    <icon gap:platform="android" gap:qualifier="mdpi" src="www/icon.png" />
+    <icon gap:platform="android" gap:qualifier="hdpi" src="www/icon.png" />
+    <icon gap:platform="android" gap:qualifier="xhdpi" src="www/icon.png" />
+    <icon gap:platform="blackberry" src="www/icon.png" />
+    <icon gap:platform="blackberry" gap:state="hover" src="www/icon.png" />
+    <icon gap:platform="webos" src="www/icon.png" />
+    <icon gap:platform="winphone" src="www/icon.png" />
+    <icon gap:platform="winphone" gap:role="background" src="www/icon.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="www/icon.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="www/icon.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="www/icon.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-xhdpi"src="www/icon.png" />
+ 
+    <access origin="*" />
+    <plugin name="cordova-plugin-whitelist" version="1" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>
