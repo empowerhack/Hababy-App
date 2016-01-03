@@ -41,20 +41,20 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
-    <icon src="www/icon.png" />
-    <icon gap:platform="android" gap:qualifier="ldpi" src="www/icon.png" />
-    <icon gap:platform="android" gap:qualifier="mdpi" src="www/icon.png" />
-    <icon gap:platform="android" gap:qualifier="hdpi" src="www/icon.png" />
-    <icon gap:platform="android" gap:qualifier="xhdpi" src="www/icon.png" />
-    <icon gap:platform="blackberry" src="www/icon.png" />
-    <icon gap:platform="blackberry" gap:state="hover" src="www/icon.png" />
-    <icon gap:platform="webos" src="www/icon.png" />
-    <icon gap:platform="winphone" src="www/icon.png" />
-    <icon gap:platform="winphone" gap:role="background" src="www/icon.png" />
-    <gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="www/icon.png" />
-    <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="www/icon.png" />
-    <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="www/icon.png" />
-    <gap:splash gap:platform="android" gap:qualifier="port-xhdpi"src="www/icon.png" />
+    <src="icon/icon.png" gap:role="default" />
+    <icon gap:platform="android" gap:qualifier="ldpi" src="icon/icon.png" />
+    <icon gap:platform="android" gap:qualifier="mdpi" src="icon/icon.png" />
+    <icon gap:platform="android" gap:qualifier="hdpi" src="icon/icon.png" />
+    <icon gap:platform="android" gap:qualifier="xhdpi" src="icon/icon.png" />
+    <icon gap:platform="blackberry" src="icon/icon.png" />
+    <icon gap:platform="blackberry" gap:state="hover" src="icon/icon.png" />
+    <icon gap:platform="webos" src="icon/icon.png" />
+    <icon gap:platform="winphone" src="icon/icon.png" />
+    <icon gap:platform="winphone" gap:role="background" src="icon/icon.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="icon/icon.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="icon/icon.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="icon/icon.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-xhdpi"src="icon/icon.png" />
  
     <access origin="*" />
     <plugin name="cordova-plugin-whitelist" version="1" />

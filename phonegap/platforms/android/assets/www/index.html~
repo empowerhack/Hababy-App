@@ -9,43 +9,49 @@
   <link rel="stylesheet" media="all" href="./index_files/application-b4500e912928c2e2f5573a75275b8dd8.css" data-turbolinks-track="true">
   <script src="./index_files/application-4c9d025d4989a03855cc008445b3cf72.js" data-turbolinks-track="true"></script>
   <meta name="csrf-param" content="authenticity_token">
-<meta name="csrf-token" content="pyH1kspK1uAnuoaBss1edvVUo8Fp2LmAtPbfu7gg+GbKy2yvBJD2G8EweLxqjLT5+tSwTDtcnE1goYwkqsEnHQ==">
+<meta name="csrf-token" content="lw6W1S6lGh3p+e97Q9MvNt5AeAX708ZXIy+YPBu37WeSu1qyySbKNvUunv+jlxmjL7gH7T3RZ2JBOCE0+kPTZg==">
+<script type="text/javascript" src=phonegap.js"> </script>
 </head>
 <body>
   <div class="body">
+
+<div id="wrapper">
+    <img src="index_files/header-bg.jpg" />
+</div>​​​​​​​​​​
+
     <div class="container">
-      
+      <center>
       <section class="welcome">
   <div id="maintitle"><strong>Hababy</strong></div>
-  <div id="subtitle">Ensure your hababy is a safe baby</div> 
-<br>
-<center>
+ 
+ <center>
   <div class="row">
-    <div class="col-md-6 col-sm-12">
-      <form method="get" action="terms.html">
-        <button style="height:200px;width:200px" type="submit" class="button" value="english">English</button>
+   <!--  <div class="col-md-3 col-sm-5">-->
+      <form method="get" action="choices.html">
+ 
+        <button type="submit" class="button" value="english">English</button>
       </form>
-    </div>
+   <!--  </div>-->
+  </center>
 
-    <div id="box" class="col-md-6 col-sm-12">
-      <form method="get" action="terms.html">
-        <button style="height:200px;width:200px" type="submit" class="button">العربية</button>
+    <!-- <div id="box" class="col-md-3 col-sm-5">-->
+      <form method="get" action="choices_ar.html">
+        <button type="submit" class="button">العربية</button>
       </form>
 
-        </div>
-<center>
+    <!--     </div>-->
         <br>
         <br>
         <br>
         <br>
         <br>
         <br>
-
+  </div>
       <footer>
         <p><strong>Handcrafted at #EmpowerHack London © 2015</strong></p>
-        
+        <p><strong><a href="mailto:empowerhack@gmail.com">Get in touch</a></strong></p>
     </footer> 
-  </div>
+</center>
 
 </section>
 

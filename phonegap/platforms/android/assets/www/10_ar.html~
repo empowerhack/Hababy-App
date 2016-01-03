@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)https://salty-harbor-5470.herokuapp.com/symptoms/10 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>HababyBaby</title>
+
+  <link rel="stylesheet" href="./10_files/bootstrap.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="/main.css"> -->
+
+  <link rel="stylesheet" media="all" href="./10_files/application-b4500e912928c2e2f5573a75275b8dd8.css" data-turbolinks-track="true">
+  <script src="./10_files/application-4c9d025d4989a03855cc008445b3cf72.js" data-turbolinks-track="true"></script>
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="CdB90w/aV81M9BIiSnrQFZSsg9JJwNrTyWCp+MbUM1ntLYqq1yxdpAyFc7/druurR8yt1+RRDlXtZSJMXZgKpQ==">
+</head>
+<body>
+  <div class="body">
+    <div class="container">
+      
+      <div class="row">
+  <h1>صداع حاد</h1>
+</div>
+
+<div class="row">
+  <h3>الصداع الخفقان، وأحيانا فقط على جانب واحد من الرأس الذي يزداد سوءا مع الاجهاد البدني. أحيانا يأتي أيضا مع الغثيان والقيء، ويمكن أن تستمر ما بين 4 و 72 ساعة. </h3>
+</div>
+
+<div class="row">
+  <h3>Current Advice given</h3>
+
+      <div class="row row-data">
+        <div class="col-md-6">
+          <p>الصداع عادة ما تتحسن طوال فترة الحمل، ولكن إذا كنت لا تزال الصداع سيئة بعد 20 أسبوعا أنها يمكن أن تكون علامة على ارتفاع ضغط الدم (تسمم الحمل قبل). أخبر طبيبك!</p><p>
+        </p></div>
+      </div>
+
+  </div>
+</div>
+
+    </div>
+  
+
+
+</body></html>
