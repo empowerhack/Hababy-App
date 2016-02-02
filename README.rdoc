@@ -25,4 +25,32 @@ Things you may want to cover:
 
 
 Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+<tt>rake doc:app</tt>
+
+---
+
+=== The EmpowerHack HaBaby Design Community:
+
+==== Design Team:
+* <b>Audrey Henkels</b> is the project manager (original HaBaby team member)
+* <b>Alessandro Crimi</b> a public health professional and developer (original HaBaby team member)
+* <b>Han Pham</b> is the Hababy co-client/partner liaison and overall EmpowerHack organiser (specialist in UX and  Design research)
+* <b>Sandra Gonzalez</b> is an Empowerhack partner from UXforChange, recruiting members to support with visual identity, future persona development.
+* <b>Courtenay Hower</b> is the project media liaison and LSHTM contact — she’ll help share your story as it unfolds. Also LSHTM liaison.
+* <b>Hina Shahid</b> is our volunteer medical advisor for Empowerhack and GP with Doctors of the World and Muslim Doctor’s Association. We also have additional doctors as part of our advisory circle.
+
+==== EmpowerHack Support: Others supporting the project in other areas
+* <b>We</b> are currently confirming developer partners for Empowerhack and Hababy, once the technical roadmap is clearer.
+* <b>Eddie</b> is the accelerator co-lead, and we’ll be working with Audrey to update the roadmap in github so it’s available to people who may want to support virtually or in person in the future.
+* <b>Veron</b> is a health tech UX professional and helping to recruit service designers and researchers to the project (and other EmpowerHack projects), and available to help flesh out ideas for the early stage.
+
+<b>Clinical Advisors and Partnerships - Volunteer Doctors and NGOs / Advisory Team:</b>
+Collaborative advisory circle of doctors (and hopefully pregnant mothers themselves) to co-design this together in the next phase and build interest to global Health Hack. Connect with smaller NGOs, independent medical volunteers / humanitarian health practitioners 
+
+* <b>Dr. Hina Shahid</b> (Clinical Liaison for EmpowerHack, Volunteer with DOTW Family Clinic, Muslim Doctors Association, Women in Health Alliance / Chain of Hope)
+* <b>Tom McKenzie</b> Business Development & Innovation Manager, Doctors of the World UK, part of the Médecins du Monde network, Founder ClinicFinder.Org (DOTW database) 
+* <b>Lucy Jones</b> the UK programme manager, DOTW UK
+* <b>Clare Shortall</b> London Family Clinic leadm DOTW UK 
+* <b>Dr Natasha Abdul Aziz</b> Women’s Health Lead at MDA, gynaecologist and research fellow at Oxford. As part of her fellowship, and as one of MDA’s projects, she has been working on developing an early pregnancy app for non-English speaking women in the UK, focused on NHS pathways, is evidence-based and endorsed by the Royal College of Obstetrics and Gynaecologist. As a board member of Muslim Doctor’s Association, an International NGO, she serves as a regional coordinator for Middle Eastern medical missions working with refugees and is well connected with NGOs involved with humanitarian relief work for refugees in the Middle East.  (Arabic speaker)
+* <b>Zahra Ameen</b> is a Consultant Obstetrician and Gynaecologist and went on a mission to Lesbos, Greece in October 2015. She is also an Arabic speaker 
+* <b>Nadia Khalid</b> is Chair of the MDA and a doctor in her final year of GP training. She has an interest in humanitarian work and is also an Arabic speaker.
