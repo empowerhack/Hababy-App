@@ -1,35 +1,17 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+=== Project Aim and Focus:
 
-Things you may want to cover:
+HaBaby strives to connect pregnant refugees with relevant medical information. It lists common symptoms, searchable by trimester, actions to take, and what to tell your doctor, and supports multiple languages - Arabic and English to start - with a focus on visual communication. It also includes information on pre- and post-natal care. The app can be utilized in places with low bandwidth, with most of the functionality accessible offline once initially downloaded. The name came from combining the Arabic word "habibi" (sweetheart) and baby.
 
-* Ruby version
+The current focus of the HaBaby project is to create an initial pilot version that meets the needs of several key populations, including pregnant women who are transient refugees as well as Arabic-speaking women in the UK. After conducting a technical review of similar existing apps and a content review with our clinical advisors, we will design and develop a version that can be piloted in March. User feedback generated from partners and potential users will inform further development post the Global Health Hackathon in April.
 
-* System dependencies
+More information:
+http://www.alessandrocrimi.com/hababy/
 
-* Configuration
+-----
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>
-
----
-
-=== The EmpowerHack HaBaby Design Community:
+===The EmpowerHack HaBaby Design Community:
 
 ==== Design Team:
 * <b>Audrey Henkels</b> is the project manager (original HaBaby team member)
@@ -40,7 +22,7 @@ Please feel free to use a different markup language if you do not plan to run
 * <b>Hina Shahid</b> is our volunteer medical advisor for Empowerhack and GP with Doctors of the World and Muslim Doctor’s Association. We also have additional doctors as part of our advisory circle.
 
 ==== EmpowerHack Support: Others supporting the project in other areas
-* <b>We</b> are currently confirming developer partners for Empowerhack and Hababy, once the technical roadmap is clearer.
+* We are currently confirming developer partners for Empowerhack and Hababy, once the technical roadmap is clearer.
 * <b>Eddie</b> is the accelerator co-lead, and we’ll be working with Audrey to update the roadmap in github so it’s available to people who may want to support virtually or in person in the future.
 * <b>Veron</b> is a health tech UX professional and helping to recruit service designers and researchers to the project (and other EmpowerHack projects), and available to help flesh out ideas for the early stage.
 
